@@ -6,7 +6,7 @@ permissions:
   id-token: write # Require write permission to Fetch an OIDC token.
   contents: read  # This is required for actions/checkout
 
-# env:
+env:
 #   # For AZURE_WEBAPP_NAME enter just the name, not the full URL.
 #   AZURE_WEBAPP_NAME: <your web app name> 
 #   RESOURCE_GROUP: az2006-rg
